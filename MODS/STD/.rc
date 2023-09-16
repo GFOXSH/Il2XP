@@ -1,0 +1,247 @@
+@load com.maddox.rts.cmd.CmdParam NAME param \
+HELP param <name of command> [<name param> [<value>]]
+
+@load com.maddox.rts.cmd.CmdLoad NAME load \
+HELP \
+  load <full class name> \n \
+\t[NAME <command name>] \n \
+\t[HELP <help string>] \n \
+\t[PARAM <name param> [<value>]]
+
+@load com.maddox.rts.cmd.CmdLoad NAME unload \
+HELP unload <command name>
+@param unload DELETE on
+
+@load com.maddox.rts.cmd.CmdFile NAME file PARAM CURENV on \
+HELP file <file name of list commans> [BREAK] - in current environment
+
+@load com.maddox.rts.cmd.CmdFile NAME f \
+HELP f <file name of list commans> [BREAK] - in new environment
+
+@load com.maddox.rts.cmd.CmdSet NAME set \
+HELP set <name of atom> <string>
+
+@load com.maddox.rts.cmd.CmdSet NAME del PARAM REMOVE on \
+HELP del <name of atom>
+
+@load com.maddox.rts.cmd.CmdShow NAME show \
+HELP show [<pattern of name atoms>] [AREA <name of area>]
+
+@load com.maddox.rts.cmd.CmdShow NAME history PARAM HISTORY on \
+HELP history
+
+@load com.maddox.rts.cmd.CmdHelp NAME help PARAM SIZE 10 WIDTH 60 \
+HELP help [<pattern of commands>] [NAMES] [SIZE <size of colons>] [WIDTH <width>]
+
+@load com.maddox.rts.cmd.CmdHelp NAME ? PARAM SIZE 10 WIDTH 60 \
+HELP ? [<pattern of commands>] [NAMES] [SIZE <size of colons>] [WIDTH <width>]
+
+@load com.maddox.rts.cmd.CmdAlias NAME alias \
+HELP alias [<name> <string>] | [<name> REMOVE]
+
+@load com.maddox.rts.cmd.CmdHotKey NAME hotkey \
+HELP hotkey [<hot key> CMD <command>] [ENV [<environment>]] [CMDRUN [<cmdrun>] [REALTIME]]
+
+@load com.maddox.rts.cmd.CmdHotKeyCmd NAME hotkeycmd \
+HELP hotkeycmd [ENV [<environment>]] [EXEC <name> [TIME <sec>]] [START <name>] [STOP <name>]
+
+@load com.maddox.il2.engine.cmd.CmdActorSpawn NAME spawn \
+HELP \
+  spawn <actor class name> \n \
+\t[NAME <name>] [POSP <position>] [POSO <orientation>] \n \
+\t[BASED <actor name for calculate position and orientation>] \n \
+\t[BASE <name base actor>] [HOOK <name hook base actor>] \n \
+\t[OWNER <name owner actor>] \n \
+\t[ICON <icon name>] [MESH <mesh name>]
+
+@load com.maddox.rts.cmd.CmdTimeout NAME timeout \
+HELP timeout <timeout in ms> <command name> [<params>]
+
+@load com.maddox.rts.cmd.CmdConsole NAME console0 \
+HELP \
+  console0 [WRAP [on|off]] [PAGE [<size>]] [PAUSE [on|off]] [CLEAR] \n \
+\t[HISTORY [<size>]] [HISTORYCMD [<size>]] [LOG [on|off]] [LOGTIME [on|off]] \n \
+\t[LOGFILE [<file name>]] [LOAD <file name>] [SAVE <file name>]
+
+@load com.maddox.rts.cmd.CmdConsole NAME console \
+HELP \
+  console [CLEAR] [HISTORY [<size>]] [HISTORYCMD [<size>]] \n \
+\t[LOG [on|off]] [LOGFILE [<file name>]] [LOAD <file name>] [SAVE <file name>]
+
+@load com.maddox.il2.engine.cmd.CmdFObj NAME fobj \
+HELP fobj [mask] [RELOAD]
+
+@load com.maddox.rts.cmd.CmdSFS NAME sfs \
+HELP sfs [MOUNT <lib name> [<as path>]] [UNMOUNT <lib name>]
+
+@load com.maddox.rts.cmd.CmdGC NAME GC
+
+@load com.maddox.rts.cmd.CmdGCNEW NAME gc \
+HELP \
+gc <GET> <TIME>
+
+@load com.maddox.rts.cmd.CmdPID NAME PID
+
+@load com.maddox.il2.engine.cmd.CmdPreload NAME preload \
+HELP preload [<name of resource>] [SAVE <file name>] [REGISTER] [NOREGISTER] [CLEAR]
+
+@load com.maddox.il2.engine.cmd.CmdWindow NAME window \
+HELP window [<width> [<height> [<bpp> [<stencilbits>]]]] [FULL] [PROVIDER <name.dll>]
+
+@load com.maddox.il2.engine.cmd.CmdFov NAME fov \
+HELP fov [<angle>]
+
+@load com.maddox.il2.game.cmd.CmdMission NAME mission \
+HELP mission [LOAD <name>] [BEGIN] [END] [DESTROY]
+
+@load com.maddox.il2.game.cmd.CmdTOD NAME tod \
+HELP tod [<hour.min>]\n \
+HELP tod DATA
+
+@load com.maddox.rts.cmd.CmdSocket NAME socket \
+HELP \
+ <empty>          (list protocols)\n \
+ LISTENER [<0|1>] (enable/disable connect from remote hosts)\n \
+ JOIN [BREAK]     (show status join/ break join)\n \
+ <protocol>       (list sockets)\n \
+ <protocol> CREATE [[LOCAL]HOST <nm>] [[LOCAL]PORT <n>] [CHANNELS <n>] [SPEED <n>]\n \
+ <protocol> CHANNELS <n> [SPEED <n>] [[LOCAL]HOST <nm>] [[LOCAL]PORT <n>] \n \
+ <protocol> SPEED <n> [CHANNELS <n>] [[LOCAL]HOST <nm>] [[LOCAL]PORT <n>] \n \
+ <protocol> DESTROY [LOCALHOST <nm>] LOCALPORT <n> [HOST <nm>] [PORT <n>]\n \
+ <protocol> JOIN [LOCALHOST <nm>] [LOCALPORT <n>] HOST <nm> [PORT <n>] [SPEED <n>]
+
+@load com.maddox.rts.cmd.CmdSocks NAME socks \
+HELP socks [ON|OFF] [HOST <socks host addr>] [PORT <socks host port>] [USER <user name>] [PWD <password>]
+
+@load com.maddox.rts.cmd.CmdChannel NAME channel \
+HELP \
+ <empty>  (list channels)\n \
+ <number> [DESTROY] [SPEED <b/s>] [TIMEOUT <sec>] [STAT <sec>]
+
+@load com.maddox.rts.cmd.CmdHost NAME host \
+HELP \
+ <empty>  (list hosts)\n \
+ PATH   (list pathes)\n \
+ <name> (rename local host)
+
+@load com.maddox.il2.game.cmd.CmdUser NAME user \
+HELP [<name>|<*>] [# <N>] [ARMY <N>|<name>] [STAT]
+
+@load com.maddox.il2.game.cmd.CmdKick NAME kick \
+HELP <name>
+
+@load com.maddox.il2.game.cmd.CmdKickN NAME kick# \
+HELP <N>
+
+@load com.maddox.il2.game.cmd.CmdKickNM NAME kickm# \
+HELP \
+ <N> <[message]>\n \
+  <N> <[[message]]>
+
+@load com.maddox.il2.game.cmd.CmdBanned NAME ban \
+HELP \
+ [ADD] [REM] [NAME [<name>]] [PATTERN [<pattern>]] [IP [<ip mask>]]\n \
+ [CLEAR] [LOAD [<file name>]] [SAVE [<file name>]]
+
+@load com.maddox.il2.game.cmd.CmdChat NAME chat \
+HELP <message> [ALL] [MY_ARMY] [TO# <N>] [TO <name>|<*>] [ARMY <N>|<name>]
+
+@load com.maddox.il2.game.cmd.CmdRadio0 NAME rch \
+HELP rch NEW|KILL|SET|LIST|INFO <name>
+
+@load com.maddox.il2.game.cmd.CmdRadio NAME radio \
+HELP radio [<name>] [NONE] [COMMON] [ARMY] [LIST]
+
+@load com.maddox.sound.CmdMusic NAME music \
+HELP music [PLAY] [STOP] [BREAK] [VOL] [PATH <randpathname>] [FILE <filename>]
+
+@load com.maddox.il2.game.cmd.CmdDotRange NAME mp_dotrange \
+HELP mp_dotrange [FRIENDLY|FOE] [DEFAULT] [COLOR <km>] [DOT <km>] [RANGE <km>] [TYPE <km>] [ID <km>] [NAME <km>]
+
+@load com.maddox.il2.engine.cmd.CmdFPS NAME fps \
+HELP fps [START|STOP] [SHOW|HIDE] [LOG <sec>]
+
+@load com.maddox.il2.game.cmd.CmdTest NAME test \
+HELP test [VSM|MVSD] [Value]
+
+@load com.maddox.il2.game.cmd.CmdSpeedBar NAME speedbar \
+HELP speedbar [SHOW|HIDE]
+
+@load com.maddox.il2.game.cmd.CmdExtraOcclusion NAME extraocclusion \
+HELP extraocclusion [ON|OFF]
+
+@load com.maddox.il2.game.cmd.CmdSaveWeapons
+
+@sfs MOUNT fb_3do.sfs
+@sfs MOUNT fb_3do01.sfs
+@sfs MOUNT fb_3do02.sfs
+@sfs MOUNT fb_3do03.sfs
+@sfs MOUNT fb_3do04.sfs
+@sfs MOUNT fb_3do05.sfs
+@sfs MOUNT fb_3do06.sfs
+@sfs MOUNT fb_3do07.sfs
+@sfs MOUNT fb_3do08.sfs
+@sfs MOUNT fb_3do08p.sfs
+
+@sfs MOUNT fb_3do10p.sfs
+@sfs MOUNT fb_3do11.sfs
+@sfs MOUNT fb_3do11p.sfs
+@sfs MOUNT fb_3do12.sfs
+@sfs MOUNT fb_3do12p.sfs
+@sfs MOUNT fb_3do13.sfs
+@sfs MOUNT fb_3do13p.sfs
+@sfs MOUNT fb_3do14.sfs
+@sfs MOUNT fb_3do14p.sfs
+@sfs MOUNT fb_3do15.sfs
+@sfs MOUNT fb_3do16.sfs
+@sfs MOUNT fb_3do16p.sfs
+@sfs MOUNT fb_3do17.sfs
+@sfs MOUNT fb_3do18.sfs
+@sfs MOUNT fb_3do19.sfs
+@sfs MOUNT fb_3do20.sfs
+@sfs MOUNT fb_3do21.sfs
+@sfs MOUNT fb_3do22.sfs
+@sfs MOUNT fb_3do23.sfs
+@sfs MOUNT fb_3do24.sfs
+@sfs MOUNT fb_3do25.sfs
+@sfs MOUNT fb_3do26.sfs
+@sfs MOUNT fb_3do27.sfs
+@sfs MOUNT fb_3do28.sfs
+@sfs MOUNT fb_3do29.sfs
+@sfs MOUNT fb_3do30.sfs
+@sfs MOUNT fb_3do31.sfs
+@sfs MOUNT fb_3do32.sfs
+@sfs MOUNT fb_3do33.sfs
+
+@sfs MOUNT fb_maps.sfs
+@sfs MOUNT fb_maps01.sfs
+
+@sfs MOUNT fb_maps03.sfs
+@sfs MOUNT fb_maps04.sfs
+@sfs MOUNT fb_maps05.sfs
+@sfs MOUNT fb_maps06.sfs
+@sfs MOUNT fb_maps07p.sfs
+@sfs MOUNT fb_maps08p.sfs
+@sfs MOUNT fb_maps09p.sfs
+@sfs MOUNT fb_maps10.sfs
+@sfs MOUNT fb_maps10p.sfs
+@sfs MOUNT fb_maps11.sfs
+@sfs MOUNT fb_maps12.sfs
+@sfs MOUNT fb_maps12p.sfs
+@sfs MOUNT fb_maps13.sfs
+@sfs MOUNT fb_maps14.sfs
+@sfs MOUNT fb_maps15.sfs
+@sfs MOUNT fb_maps16.sfs
+@sfs MOUNT fb_maps17.sfs
+@sfs MOUNT fb_maps18.sfs
+@sfs MOUNT fb_maps19.sfs
+
+@sfs MOUNT fb_maps21.sfs
+@sfs MOUNT fb_maps22.sfs
+@sfs MOUNT fb_maps23.sfs
+
+@sfs MOUNT fb_sounds.sfs
+
+#preload REGISTER
+@file .preload
+

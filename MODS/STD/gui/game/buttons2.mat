@@ -1,0 +1,11 @@
+[ClassInfo]
+  ClassName TMaterial
+[Layer0]
+  TextureName buttons2.tga
+  tfModulate 1
+  tfNoWriteZ 1
+  tfNoDegradation 1
+//  tfMinLinear 1
+//  tfMagLinear 1
+  tfBlend 1
+//  tfMipMap 1

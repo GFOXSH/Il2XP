@@ -1,0 +1,928 @@
+#
+# .preload (4.13.1 v1.00)
+#
+
+## Effects
+
+@preload Effects/Bigship/GunFire150mm/Fire.eff
+@preload Effects/BigShip/GunFire150mm/Burst.eff
+@preload Effects/Bigship/GunFire250mm/Fire.eff
+@preload Effects/BigShip/GunFire250mm/Burst.eff
+@preload Effects/Bigship/GunFire350mm/Fire.eff
+@preload Effects/BigShip/GunFire350mm/Burst.eff
+@preload Effects/Explodes/Aircrash_Fuel.eff									#Add This is use!
+## @preload Effects/Explodes/Airexplodefuel.eff								#Add
+## @preload Effects/Explodes/Airexplodefuel1.eff							#Add
+## @preload Effects/Explodes/Airexplodefuelburn.eff							#Add
+## @preload Effects/Explodes/Rocketfuelburn.eff								#Add
+## @preload Effects/Explodes/Small_Fuel.eff									#Add
+@preload Effects/Explodes/Smokeboiling.eff									#Add
+@preload Effects/Explodes/Tank_Explode.eff									#Add
+@preload Effects/Explodes/Wreckage_Burn.eff
+@preload Effects/Explodes/AB/Fontain.eff
+@preload Effects/Explodes/AB/Fontain2.eff
+@preload Effects/Explodes/AB/Fontain3.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_20mm/Burn.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_20mm/SmokeBoiling.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_20mm/Sparks.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_20mm/SparksP.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_88mm/Burn.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_88mm/SmokeBoiling.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_88mm/Sparks.eff
+@preload Effects/Explodes/Air/Zenitka/Germ_88mm/SparksP.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_25mm/Burn.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_25mm/SmokeBoiling.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_25mm/Sparks.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_25mm/SparksP.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_85mm/Burn.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_85mm/SmokeBoiling.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_85mm/Sparks.eff
+@preload Effects/Explodes/Air/Zenitka/USSR_85mm/SparksP.eff
+@preload Effects/Explodes/Air/Zenitka/US_frag/Burn.eff						# Add
+@preload Effects/Explodes/Air/Zenitka/US_frag/Smokeboiling.eff				# Add
+@preload Effects/Explodes/Air/Zenitka/US_Frag/Sparks.eff
+@preload Effects/Explodes/Air/Zenitka/US_Frag/SparksP.eff
+@preload Effects/Explodes/Aircraft/Land/Base.eff
+@preload Effects/Explodes/Aircraft/Land/Burn.eff
+@preload Effects/Explodes/Aircraft/Land/Dirt.eff
+@preload Effects/Explodes/Aircraft/Land/Smoke.eff
+@preload Effects/Explodes/Aircraft/Land/Smoke2.eff
+@preload Effects/Explodes/Aircraft/Water/Base.eff
+@preload Effects/Explodes/Aircraft/Water/Burn.eff							#Add
+@preload Effects/Explodes/Aircraft/Water/Fontain.eff
+@preload Effects/Explodes/Aircraft/Water/Spray.eff
+@preload Effects/Explodes/Aircraft/Water/Soot.eff
+@preload Effects/Explodes/Bomb1000/Land/Base.eff
+@preload Effects/Explodes/Bomb1000/Land/Burn.eff
+@preload Effects/Explodes/Bomb1000/Land/Burn_Fog.eff
+@preload Effects/Explodes/Bomb1000/Land/Fontain.eff
+@preload Effects/Explodes/Bomb1000/Land/Peaces.eff
+@preload Effects/Explodes/Bomb1000/Land/Shock.eff
+@preload Effects/Explodes/Bomb1000/Land_2/Base.eff
+@preload Effects/Explodes/Bomb1000/Land_2/Burn.eff
+@preload Effects/Explodes/Bomb1000/Land_2/Burn_Fog.eff
+@preload Effects/Explodes/Bomb1000/Land_2/Fontain.eff
+@preload Effects/Explodes/Bomb1000/Land_2/Peaces.eff
+@preload Effects/Explodes/Bomb1000/Land_2/Shock.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in/Base.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in/Burn.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in/Burn_Fog.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in/Fontain.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in/Peaces.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in/Shock.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in_2/Base.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in_2/Burn.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in_2/Burn_Fog.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in_2/Fontain.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in_2/Peaces.eff
+@preload Effects/Explodes/Bomb1000/Land_dig_in_2/Shock.eff
+@preload Effects/Explodes/Bomb1000/Object/Fuel.eff						# Add ?
+@preload Effects/Explodes/Bomb1000/Water/Fontain.eff
+@preload Effects/Explodes/Bomb1000/Water/Fontain2.eff
+@preload Effects/Explodes/Bomb1000/Water/Fontain3.eff
+@preload Effects/Explodes/Bomb1000/Water/Fontain4.eff
+@preload Effects/Explodes/Bomb1000/Water/Fontain5.eff
+@preload Effects/Explodes/Bomb250/Land/Base.eff
+@preload Effects/Explodes/Bomb250/Land/Burn.eff
+@preload Effects/Explodes/Bomb250/Land/Burn_Fog.eff
+@preload Effects/Explodes/Bomb250/Land/Fontain.eff
+@preload Effects/Explodes/Bomb250/Land/Peaces.eff
+@preload Effects/Explodes/Bomb250/Land/Shock.eff
+@preload Effects/Explodes/Bomb250/Land_2/Base.eff
+@preload Effects/Explodes/Bomb250/Land_2/Burn.eff
+@preload Effects/Explodes/Bomb250/Land_2/Burn_Fog.eff
+@preload Effects/Explodes/Bomb250/Land_2/Fontain.eff
+@preload Effects/Explodes/Bomb250/Land_2/Peaces.eff
+@preload Effects/Explodes/Bomb250/Land_2/Shock.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in/Base.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in/Burn.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in/Burn_Fog.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in/Fontain.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in/Peaces.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in/Shock.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in_2/Base.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in_2/Burn.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in_2/Burn_Fog.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in_2/Fontain.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in_2/Peaces.eff
+@preload Effects/Explodes/Bomb250/Land_dig_in_2/Shock.eff
+@preload Effects/Explodes/Bomb250/Object/Fuel.eff					# Add ?
+@preload Effects/Explodes/Bomb250/Water/Fontain.eff
+@preload Effects/Explodes/Bomb250/Water/Fontain2.eff
+@preload Effects/Explodes/Bomb250/Water/Fontain3.eff
+@preload Effects/Explodes/Bomb250/Water/Fontain4.eff
+@preload Effects/Explodes/Bomb250/Water/Fontain5.eff
+@preload Effects/Explodes/Bullet/Land/BaseSpray.eff
+@preload Effects/Explodes/Bullet/Land/Flash.eff
+@preload Effects/Explodes/Bullet/Land/Fontain.eff
+@preload Effects/Explodes/Bullet/Land/Spray.eff
+@preload Effects/Explodes/Bullet/Land/Exp_BaseSpray.eff
+@preload Effects/Explodes/Bullet/Land/Exp_Flash.eff
+@preload Effects/Explodes/Bullet/Land/Exp_Spray.eff
+@preload Effects/Explodes/Bullet/Object/Spray.eff
+@preload Effects/Explodes/Bullet/Water/BaseSpray.eff
+@preload Effects/Explodes/Bullet/Water/Fontain.eff
+@preload Effects/Explodes/Bullet/Water/Spray.eff
+@preload Effects/Explodes/Bullet/Water/Exp_BaseSpray.eff
+@preload Effects/Explodes/Bullet/Water/Exp_Spray.eff
+@preload Effects/Explodes/Cannon/Land/12mm_Exp_BaseSpray.eff
+@preload Effects/Explodes/Cannon/Land/12mm_Exp_Flash.eff
+@preload Effects/Explodes/Cannon/Land/12mm_Exp_Spray.eff
+@preload Effects/Explodes/Cannon/Land/20mm_Exp_BaseSpray.eff
+@preload Effects/Explodes/Cannon/Land/20mm_Exp_Flame.eff
+@preload Effects/Explodes/Cannon/Land/20mm_Exp_Flash.eff
+@preload Effects/Explodes/Cannon/Land/20mm_Exp_Fontain.eff
+@preload Effects/Explodes/Cannon/Land/20mm_Exp_Spray.eff
+@preload Effects/Explodes/Cannon/Land/BaseSpray.eff
+@preload Effects/Explodes/Cannon/Land/Flash.eff
+@preload Effects/Explodes/Cannon/Land/Fontain.eff
+@preload Effects/Explodes/Cannon/Land/Spray.eff
+@preload Effects/Explodes/Cannon/Object/light.eff
+@preload Effects/Explodes/Cannon/Object/Sparks.eff
+@preload Effects/Explodes/Cannon/Water/12mm_Exp_BaseSpray.eff
+@preload Effects/Explodes/Cannon/Water/12mm_Exp_Spray.eff
+@preload Effects/Explodes/Cannon/Water/20mm_Exp_BaseSpray.eff
+@preload Effects/Explodes/Cannon/Water/20mm_Exp_Fontain.eff
+@preload Effects/Explodes/Cannon/Water/20mm_Exp_Spray.eff
+@preload Effects/Explodes/Cannon/Water/BaseSpray.eff
+@preload Effects/Explodes/Cannon/Water/Fontain.eff
+@preload Effects/Explodes/Cannon/Water/Spray.eff
+@preload Effects/Explodes/CannonBig/Land/BaseSpray.eff
+@preload Effects/Explodes/CannonBig/Land/Flame.eff
+@preload Effects/Explodes/CannonBig/Land/Flash.eff
+@preload Effects/Explodes/CannonBig/Land/Dirt.eff
+@preload Effects/Explodes/CannonBig/Land/Spray.eff
+@preload Effects/Explodes/CannonBig/Water/BaseSpray.eff
+@preload Effects/Explodes/CannonBig/Water/Fontain.eff
+@preload Effects/Explodes/CannonBig/Water/FontainSoot.eff
+@preload Effects/Explodes/CannonBig/Water/Spray.eff
+@preload Effects/Explodes/Debris/Dud/BaseSpray.eff
+@preload Effects/Explodes/Debris/Dud/Spray.eff
+@preload Effects/Explodes/Debris/Dud/Dirt.eff
+@preload Effects/Explodes/Debris/Dud/BaseSprayWater.eff
+@preload Effects/Explodes/Debris/Dud/FontainWater.eff
+@preload Effects/Explodes/Debris/Dud/SprayWater.eff
+@preload Effects/Explodes/Debris/Dud/Spray2Water.eff
+@preload Effects/Explodes/Debris/Water/Fontain.eff
+@preload Effects/Explodes/Debris/Water/Fontain2.eff
+@preload Effects/Explodes/Explode10Kg/Land/BaseSpray.eff
+@preload Effects/Explodes/Explode10Kg/Land/Dirt.eff
+@preload Effects/Explodes/Explode10Kg/Land/Flame.eff
+@preload Effects/Explodes/Explode10Kg/Land/Flash.eff
+@preload Effects/Explodes/Explode10kg/Land/Fontain.eff					# Add ?
+@preload Effects/Explodes/Explode10Kg/Land/Spray.eff
+@preload Effects/Explodes/Explode10Kg/Object/Sparks.eff
+@preload Effects/Explodes/Explode10Kg/Object/Flash.eff
+@preload Effects/Explodes/Explode10Kg/Object/Spray.eff
+@preload Effects/Explodes/Explode10Kg/Water/BaseSpray.eff
+@preload Effects/Explodes/Explode10Kg/Water/Fontain.eff
+@preload Effects/Explodes/Explode10Kg/Water/FontainSoot.eff
+@preload Effects/Explodes/Explode10Kg/Water/Spray.eff
+## Not used in game
+## @preload Effects/explodes/explode5kg/land/basespray.eff
+## @preload Effects/explodes/explode5kg/land/dirt.eff
+## @preload Effects/explodes/explode5kg/land/flame.eff
+## @preload Effects/explodes/explode5kg/land/flash.eff
+## @preload Effects/explodes/explode5kg/land/spray.eff
+## @preload Effects/explodes/explode5kg/water/basespray.eff
+## @preload Effects/explodes/explode5kg/water/fontain.eff
+## @preload Effects/explodes/explode5kg/water/fontainsoot.eff
+## @preload Effects/explodes/explode5kg/water/spray.eff
+##
+@preload Effects/Explodes/Objects/Bridges/SmokeBoiling.eff
+@preload Effects/Explodes/Objects/Bridges/SmokeBoiling2.eff
+@preload Effects/Explodes/Objects/Building20m/SmokeBoiling.eff
+@preload Effects/Explodes/Objects/Building20m/SmokeBoiling2.eff
+@preload Effects/explodes/objects/house/pieces.eff								# Add
+## @preload Effects/explodes/objects/house/_baseboiling.eff						# Add
+## @preload Effects/explodes/objects/house/_baseboiling2.eff						# Add
+@preload Effects/Explodes/Objects/House/Fuel/Boiling.eff
+@preload Effects/Explodes/Objects/House/Fuel/Boiling2.eff
+@preload Effects/Explodes/Objects/House/Fuel/Pieces.eff
+@preload Effects/Explodes/Objects/House/Fuel/Fire_Smoke.eff
+@preload Effects/explodes/objects/house/fuels/boiling.eff						# Add
+@preload Effects/explodes/objects/house/fuels/boiling2.eff						# Add
+@preload Effects/explodes/objects/house/fuels/fire_smoke.eff					# Add
+@preload Effects/explodes/objects/house/fuels/pieces.eff						# Add
+@preload Effects/Explodes/Objects/House/Rock/Boiling.eff
+@preload Effects/Explodes/Objects/House/Rock/Boiling2.eff
+@preload Effects/Explodes/Objects/House/Rock/Pieces.eff
+@preload Effects/Explodes/Objects/House/Rock/Fire_Smoke.eff
+@preload Effects/Explodes/Objects/House/Wood/Boiling.eff
+@preload Effects/Explodes/Objects/House/Wood/Boiling2.eff
+@preload Effects/Explodes/Objects/House/Wood/Pieces.eff
+@preload Effects/Explodes/Objects/House/Wood/Fire_Smoke.eff
+@preload Effects/Explodes/Objects/House/Woods/Boiling.eff						# Add
+@preload Effects/Explodes/Objects/House/Woods/Boiling2.eff						# Add
+@preload Effects/Explodes/Objects/House/Woods/Fire_smoke.eff					# Add
+@preload Effects/Explodes/Objects/House/Woods/Pieces.eff						# Add
+@preload Effects/Explodes/Objects/Tank_Collapse/Peaces1.eff
+@preload Effects/Explodes/Objects/Tank_Collapse/Peaces2.eff
+@preload Effects/Explodes/Objects/Tank_Collapse/Sparks.eff
+@preload Effects/Explodes/Objects/Tank_Collapse/Burn.eff
+@preload Effects/Explodes/Objects/Tank_Collapse/SmokeBoiling.eff
+@preload Effects/Explodes/Objects/VagonArmor/SmokeBoiling.eff
+@preload Effects/Explodes/Objects/VagonArmor/SmokeBoiling2.eff
+@preload Effects/Explodes/Objects/Vagonfuel/Fire.eff							# Add
+@preload Effects/Explodes/Objects/Vagonfuel/Fire_smoke.eff						# Add
+@preload Effects/Explodes/Objects/VagonFuel/SmokeBoilingFire.eff
+@preload Effects/Explodes/Objects/VagonFuel/SmokeBoilingFire2.eff
+## @preload Effects/Explodes/Objects/Vagonfuel/n-em3mby-me1/smokeboiling.eff		# Add
+## @preload Effects/Explodes/Objects/Vagonfuel/n-em3mby-me1/smokeboiling2.eff		# Add
+## @preload Effects/explodes/objects/vags/expl.eff									# Add
+## @preload Effects/explodes/objects/vags/fire.eff									# Add
+## @preload Effects/explodes/objects/vags/fire_smoke.eff							# Add
+## @preload Effects/explodes/objects/vags/pieces.eff								# Add
+## @preload Effects/explodes/objects/vags/sparks.eff								# Add
+## @preload Effects/explodes/objects/vags/steam_expl.eff							# Add
+@preload Effects/Explodes/RS82/Land/Base.eff
+@preload Effects/Explodes/RS82/Land/Burn.eff
+@preload Effects/Explodes/RS82/Land/Burn_Fog.eff
+@preload Effects/Explodes/RS82/Land/Fontain.eff
+@preload Effects/Explodes/RS82/Land/Peaces.eff
+@preload Effects/Explodes/RS82/Land/Shock.eff
+@preload Effects/Explodes/RS82/Land_2/Base.eff
+@preload Effects/Explodes/RS82/Land_2/Burn.eff
+@preload Effects/Explodes/RS82/Land_2/Burn_Fog.eff
+@preload Effects/Explodes/RS82/Land_2/Fontain.eff
+@preload Effects/Explodes/RS82/Land_2/Peaces.eff
+@preload Effects/Explodes/RS82/Land_2/Shock.eff
+@preload Effects/Explodes/RS82/Land_dig_in/Base.eff
+@preload Effects/Explodes/RS82/Land_dig_in/Burn.eff
+@preload Effects/Explodes/RS82/Land_dig_in/Burn_Fog.eff
+@preload Effects/Explodes/RS82/Land_dig_in/Fontain.eff
+@preload Effects/Explodes/RS82/Land_dig_in/Peaces.eff
+@preload Effects/Explodes/RS82/Land_dig_in/Shock.eff
+@preload Effects/Explodes/RS82/Land_dig_in_2/Base.eff
+@preload Effects/Explodes/RS82/Land_dig_in_2/Burn.eff
+@preload Effects/Explodes/RS82/Land_dig_in_2/Burn_Fog.eff
+@preload Effects/Explodes/RS82/Land_dig_in_2/Fontain.eff
+@preload Effects/Explodes/RS82/Land_dig_in_2/Peaces.eff
+@preload Effects/Explodes/RS82/Land_dig_in_2/Shock.eff
+@preload Effects/Explodes/RS82/Water/Fontain.eff
+@preload Effects/Explodes/RS82/Water/Fontain2.eff
+@preload Effects/Explodes/RS82/Water/Fontain3.eff
+@preload Effects/Explodes/RS82/Water/Fontain4.eff
+@preload Effects/Explodes/RS82/Water/Fontain5.eff
+@preload Effects/Explodes/Torpedo/Fontain.eff
+@preload Effects/Explodes/Torpedo/Fontain2.eff
+@preload Effects/Explodes/Torpedo/Fontain3.eff
+@preload Effects/Explodes/Torpedo/Fontain4.eff
+@preload Effects/Smokes/12mmSmoke.eff
+@preload Effects/Smokes/37mmSlow.eff
+@preload Effects/Smokes/Blackmedium.eff						# Add Use in game
+## @preload Effects/Smokes/Cannon.eff							# Add
+@preload Effects/Smokes/CannonTank.eff
+@preload Effects/Smokes/CarDyingFire.eff
+@preload Effects/Smokes/CarDyingSmoke.eff
+@preload Effects/Smokes/FireBoiling.eff
+@preload Effects/Smokes/FireBoilingBig.eff
+@preload Effects/Smokes/LocomotiveFC1.eff
+@preload Effects/Smokes/LocomotiveFC2.eff
+@preload Effects/Smokes/MachineGun.eff
+@preload Effects/Smokes/MachineGunSmall.eff
+@preload Effects/Smokes/MortarLight.eff							# Add new 4.13.1
+@preload Effects/smokes/shelltrail.eff							# Add
+@preload Effects/Smokes/SmokeAirSplat.eff
+@preload Effects/Smokes/SmokeAirTouch.eff
+@preload Effects/Smokes/SmokeAirTouchW.eff
+## @preload Effects/Smokes/SmokeBlack.eff
+## @preload Effects/Smokes/Smokeblackandfire0.eff					# Add
+## @preload Effects/Smokes/Smokeblackandfire0a.eff					# Add
+@preload Effects/Smokes/SmokeBlackToWhite.eff
+@preload Effects/Smokes/SmokeBlack_BuletteTrail.eff
+@preload Effects/Smokes/SmokeBlack_BuletteTrail2.eff
+@preload Effects/Smokes/SmokeBlack_Locomotive.eff
+@preload Effects/Smokes/SmokeBlack_plane.eff
+@preload Effects/Smokes/SmokeBlack_planeTrail.eff
+@preload Effects/Smokes/SmokeBlack_Wreckage.eff
+@preload Effects/Smokes/SmokeBlack_Wreckage_Explode.eff
+@preload Effects/Smokes/SmokeBoiling.eff
+@preload Effects/Smokes/SmokeBoilingBig.eff
+## @preload Effects/Smokes/Smokeboilingfc.eff						## Add
+@preload Effects/Smokes/SmokeCargo.eff
+## @preload Effects/Smokes/Smokefireship.eff						## Add
+@preload Effects/Smokes/SmokeFire_plane.eff
+@preload Effects/Smokes/SmokeFireSmall.eff
+## @preload Effects/Smokes/SmokeGray.eff
+## @preload Effects/Smokes/SmokeGraySmall.eff						## Add
+## @preload Effects/smokes/smokegunhuge.eff							## Add
+## @preload Effects/smokes/smokegunhugefire.eff						## Add
+## @preload Effects/smokes/smokegunlarge.eff						## Add
+## @preload Effects/smokes/smokegunlargefire.eff					## Add
+## @preload Effects/smokes/smokegunmedium.eff						## Add
+## @preload Effects/smokes/smokegunmediumfire.eff					## Add
+## @preload Effects/smokes/smokegunsmall.eff						## Add
+## @preload Effects/smokes/smokegunsmallfire.eff					## Add
+## @preload Effects/smokes/smokeguntiny.eff							## Add
+## @preload Effects/smokes/smokeguntinyfire.eff						## Add
+## @preload Effects/Smokes/SmokeLightGray.eff
+@preload Effects/Smokes/SmokeLocomotive.eff
+@preload Effects/Smokes/SmokeOilTank1.eff
+@preload Effects/Smokes/SmokeOilTank2.eff
+@preload Effects/Smokes/SmokeOilTank3.eff
+@preload Effects/Smokes/SmokePipeShip.eff
+## @preload Effects/Smokes/SmokeRed.eff
+## @preload Effects/Smokes/SmokeRed_plane.eff
+@preload Effects/Smokes/SmokeShipEnormous.eff
+@preload Effects/Smokes/SmokeShipEnormousFire.eff
+@preload Effects/Smokes/SmokeShipHuge.eff
+@preload Effects/Smokes/SmokeShipHugeFire.eff
+## @preload Effects/smokes/smokeshipinvulnerable.eff					# Add
+@preload Effects/Smokes/SmokeShipLarge.eff
+@preload Effects/Smokes/SmokeShipLargeFire.eff
+@preload Effects/Smokes/SmokeShipMedium.eff
+@preload Effects/Smokes/SmokeShipMediumFire.eff
+@preload Effects/Smokes/SmokeShipSmall.eff
+@preload Effects/Smokes/SmokeShipSmallFire.eff
+@preload Effects/Smokes/SmokeShipTanker.eff
+@preload Effects/Smokes/SmokeShipTankerFire.eff
+@preload Effects/Smokes/SmokeShipTiny.eff
+@preload Effects/Smokes/SmokeShipTinyFire.eff
+@preload Effects/Smokes/SmokeTrailorFC.eff
+## @preload Effects/smokes/smokewagonbasic.eff						# Add
+@preload Effects/Smokes/SmokeWhite.eff
+@preload Effects/Smokes/S_Steam.eff									# Add in 4.13.1
+@preload Effects/Smokes/TankBusterSmoke.eff
+@preload Effects/Smokes/TankDust.eff
+@preload Effects/Smokes/TankDyingFire.eff
+@preload Effects/Smokes/TankDyingSmoke.eff
+@preload Effects/Smokes/WagonFC.eff
+## @preload Effects/smokesold/fireboiling.eff						# Add Not use
+## @preload Effects/smokesold/fireboilingbig.eff					# Add Not use
+## @preload Effects/smokesold/smokeblacktowhite.eff					# Add Not use
+## @preload Effects/smokesold/smokeblack_plane.eff					# Add Not use
+## @preload Effects/smokesold/smokeboiling.eff						# Add Not use
+## @preload Effects/smokesold/smokeboilingbig.eff					# Add Not use
+## @preload Effects/smokesold/smokefiresmall.eff					# Add Not use
+## @preload Effects/smokesold/smokefire_plane.eff					# Add Not use
+## @preload Effects/smokesold/smokeshipenormous.eff					# Add Not use
+## @preload Effects/smokesold/smokeshipmedium.eff					# Add Not use
+## @preload Effects/smokesold/smokeshiptiny.eff						# Add Not use
+## @preload Effects/smokesold/smokewhite.eff						# Add Not use
+@preload Effects/Sprites/SpriteSun.eff
+
+@preload 3DO/Effects/Aircraft/AirShowGreenTSPD.eff
+@preload 3DO/Effects/Aircraft/AirShowRedTSPD.eff
+@preload 3DO/Effects/Aircraft/BlackHeavyGND.eff
+@preload 3DO/Effects/Aircraft/BlackHeavySPD.eff
+@preload 3DO/Effects/Aircraft/BlackHeavySPDWing.eff
+@preload 3DO/Effects/Aircraft/BlackHeavyTSPD.eff
+@preload 3DO/Effects/Aircraft/BlackMediumGND.eff
+@preload 3DO/Effects/Aircraft/BlackMediumSPD.eff
+@preload 3DO/Effects/Aircraft/BlackMediumTSPD.eff
+@preload 3DO/Effects/Aircraft/BlackSmallTSPD.eff
+@preload 3DO/Effects/Aircraft/CondensateTSPD.eff
+@preload 3DO/Effects/Aircraft/EngineBlackHeavyTSPD.eff
+@preload 3DO/Effects/Aircraft/EngineBlackMediumSPD.eff
+@preload 3DO/Effects/Aircraft/EngineBlackMediumTSPD.eff
+@preload 3DO/Effects/Aircraft/EngineExtinguisher1.eff
+@preload 3DO/Effects/Aircraft/EngineStart1.eff
+@preload 3DO/Effects/Aircraft/EngineStart2.eff
+@preload 3DO/Effects/Aircraft/EngineStart3.eff
+@preload 3DO/Effects/Aircraft/FireGND.eff
+@preload 3DO/Effects/Aircraft/FireSPD.eff
+@preload 3DO/Effects/Aircraft/FireSPDLong.eff
+@preload 3DO/Effects/Aircraft/FireSPDShort.eff
+@preload 3DO/Effects/Aircraft/FireSPDWing.eff
+@preload 3DO/Effects/Aircraft/FireSPDWingLong.eff
+@preload 3DO/Effects/Aircraft/GrayGroundDust1.eff
+@preload 3DO/Effects/Aircraft/GrayGroundDust2.eff
+@preload 3DO/Effects/Aircraft/GraySmallGND.eff
+@preload 3DO/Effects/Aircraft/GraySmallSPD.eff
+@preload 3DO/Effects/Aircraft/GraySmallTSPD.eff
+@preload 3DO/Effects/Aircraft/OilBlackMediumSPD.eff
+@preload 3DO/Effects/Aircraft/OilBlackMediumTSPD.eff
+@preload 3DO/Effects/Aircraft/RedLeakGND.eff
+@preload 3DO/Effects/Aircraft/RedLeakTSPD.eff
+@preload 3DO/Effects/Aircraft/StallTSPD.eff
+@preload 3DO/Effects/Aircraft/TankBlackMediumSPD.eff
+@preload 3DO/Effects/Aircraft/TankBlackMediumTSPD.eff
+@preload 3DO/Effects/Aircraft/TurboHWK109D.eff
+@preload 3DO/Effects/Aircraft/TurboHWK109F.eff
+@preload 3DO/Effects/Aircraft/TurboHWK109S.eff
+@preload 3DO/Effects/Aircraft/TurboHWK109T.eff
+@preload 3DO/Effects/Aircraft/TurboJRD1100D.eff
+@preload 3DO/Effects/Aircraft/TurboJRD1100F.eff
+@preload 3DO/Effects/Aircraft/TurboJRD1100S.eff
+@preload 3DO/Effects/Aircraft/TurboJRD1100T.eff
+@preload 3DO/Effects/Aircraft/TurboZippo.eff
+@preload 3DO/Effects/Aircraft/WhiteOxySmallGND.eff
+@preload 3DO/Effects/Aircraft/WhiteOxySmallTSPD.eff
+
+@preload 3DO/Effects/Explosion/firesprite.eff
+
+@preload 3DO/Effects/Fireworks/12mmPluff.eff
+@preload 3DO/Effects/Fireworks/12mmRicochet.eff
+@preload 3DO/Effects/Fireworks/12mm_BigFlame.eff
+@preload 3DO/Effects/Fireworks/12mm_BigFlame2.eff
+@preload 3DO/Effects/Fireworks/12mm_BigFlash.eff
+@preload 3DO/Effects/Fireworks/12mm_BigFlash2.eff
+@preload 3DO/Effects/Fireworks/12mm_BigSmoke.eff
+@preload 3DO/Effects/Fireworks/12mm_BigSmoke2.eff
+@preload 3DO/Effects/Fireworks/12mm_BigSparks.eff
+@preload 3DO/Effects/Fireworks/12mm_BigSparks2.eff
+@preload 3DO/Effects/Fireworks/12mm_Burn.eff
+@preload 3DO/Effects/Fireworks/12mm_Debris.eff
+@preload 3DO/Effects/Fireworks/12_BigFlame.eff
+@preload 3DO/Effects/Fireworks/12_BigFlash.eff
+@preload 3DO/Effects/Fireworks/12_BigSmoke.eff
+@preload 3DO/Effects/Fireworks/12_BigSparks.eff
+@preload 3DO/Effects/Fireworks/12_Burn.eff
+@preload 3DO/Effects/Fireworks/12_Smoke.eff
+@preload 3DO/Effects/Fireworks/20_Burn.eff
+@preload 3DO/Effects/Fireworks/20_BurnBig.eff
+@preload 3DO/Effects/Fireworks/20_BurnBig2.eff
+@preload 3DO/Effects/Fireworks/20_DebrisBig2.eff
+@preload 3DO/Effects/Fireworks/20_DebrisBigA.eff
+@preload 3DO/Effects/Fireworks/20_SmokeBoiling.eff
+@preload 3DO/Effects/Fireworks/20_SmokeBoilingBig.eff
+@preload 3DO/Effects/Fireworks/20_SmokeBoilingBig2.eff
+@preload 3DO/Effects/Fireworks/20_Sparks.eff
+@preload 3DO/Effects/Fireworks/20_SparksBig.eff
+@preload 3DO/Effects/Fireworks/20_SparksP.eff
+@preload 3DO/Effects/Fireworks/20_SparksP2.eff
+@preload 3DO/Effects/Fireworks/37_Burn.eff
+@preload 3DO/Effects/Fireworks/37_BurnBig.eff
+@preload 3DO/Effects/Fireworks/37_Debris1B.eff
+@preload 3DO/Effects/Fireworks/37_Debris1C.eff
+@preload 3DO/Effects/Fireworks/37_SmokeBoiling.eff
+@preload 3DO/Effects/Fireworks/37_SmokeBoilingA.eff
+@preload 3DO/Effects/Fireworks/37_SmokeBoilingBig.eff
+@preload 3DO/Effects/Fireworks/37_Sparks.eff
+@preload 3DO/Effects/Fireworks/37_SparksP.eff
+@preload 3DO/Effects/Fireworks/Belly_ConcreteFlame.eff
+@preload 3DO/Effects/Fireworks/Belly_ConcreteSmallSparks.eff
+@preload 3DO/Effects/Fireworks/Belly_ConcreteSmoke.eff
+@preload 3DO/Effects/Fireworks/Belly_ConcreteSparks.eff
+@preload 3DO/Effects/Fireworks/Belly_ConcreteSparksLines.eff
+@preload 3DO/Effects/Fireworks/Belly_Dirt.eff
+@preload 3DO/Effects/Fireworks/Belly_Sand.eff
+@preload 3DO/Effects/Fireworks/Belly_Snow.eff
+@preload 3DO/Effects/Fireworks/Debris1A.eff
+@preload 3DO/Effects/Fireworks/Debris1B.eff
+@preload 3DO/Effects/Fireworks/Debris1C.eff
+@preload 3DO/Effects/Fireworks/Debris1D.eff
+@preload 3DO/Effects/Fireworks/FlareBlue.eff
+@preload 3DO/Effects/Fireworks/FlareGreen.eff
+@preload 3DO/Effects/Fireworks/FlareRed.eff
+@preload 3DO/Effects/Fireworks/FlareWhite.eff
+@preload 3DO/Effects/Fireworks/FlareWhiteWide.eff
+@preload 3DO/Effects/Fireworks/FlareYellow.eff
+@preload 3DO/Effects/Fireworks/Shock.eff
+@preload 3DO/Effects/Fireworks/Tank_Burn.eff
+@preload 3DO/Effects/Fireworks/Tank_SmokeBoiling.eff
+@preload 3DO/Effects/Fireworks/Tank_Sparks.eff
+@preload 3DO/Effects/Fireworks/Tank_SparksP.eff
+@preload 3DO/Effects/Fireworks/FAB-1000(buff).eff
+@preload 3DO/Effects/Fireworks/FAB-1000(circle).eff
+@preload 3DO/Effects/Fireworks/FAB-1000(column).eff
+@preload 3DO/Effects/Fireworks/FAB-1000(flare).eff
+@preload 3DO/Effects/Fireworks/FAB-1000(ring).eff
+@preload 3DO/Effects/Fireworks/PhosfourousBall.eff
+@preload 3DO/Effects/Fireworks/PhosfourousFire.eff
+@preload 3DO/Effects/Fireworks/Sprite.eff
+@preload 3DO/Effects/Fireworks/Termit1SM.eff
+@preload 3DO/Effects/Fireworks/Termit1W.eff
+
+@preload 3DO/Effects/GunFire/12mm/GunFlare.eff
+@preload 3DO/Effects/GunFire/20mm/GunFlare.eff
+@preload 3DO/Effects/GunFire/30mm/GunFire.eff
+@preload 3DO/Effects/GunFire/30mm/GunFlare.eff
+@preload 3DO/Effects/GunFire/37mm/GunFire.eff
+@preload 3DO/Effects/GunFire/37mm/GunFlare.eff
+@preload 3DO/Effects/GunFire/37mmSlow/GunFire.eff
+@preload 3DO/Effects/GunFire/45mm/GunFire.eff
+@preload 3DO/Effects/GunFire/45mm/GunFlare.eff
+@preload 3DO/Effects/GunFire/75mm/GunFire.eff
+@preload 3DO/Effects/GunFire/75mm/GunFlare.eff
+@preload 3DO/Effects/GunFire/7mm/GunFlare.eff
+@preload 3DO/Effects/GunFire/88mm/CannonTank.eff
+@preload 3DO/Effects/GunFire/88mm/CannonTankFire.eff
+@preload 3DO/Effects/GunFire/88mm/CannonTankFireLarge.eff
+@preload 3DO/Effects/GunFire/88mm/CannonTankFireMid.eff
+@preload 3DO/Effects/GunFire/88mm/CannonTankLarge.eff
+@preload 3DO/Effects/GunFire/88mm/CannonTankMid.eff
+@preload 3DO/Effects/GunFire/12mm/mono.sim
+@preload 3DO/Effects/GunFire/20mm/mono.sim
+@preload 3DO/Effects/GunFire/7mm/mono.sim
+
+@preload 3DO/Effects/GunFireDay/12mm/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/20mm/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/30mm/GunFire.eff
+@preload 3DO/Effects/GunFireDay/30mm/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/37mm/GunFire.eff
+@preload 3DO/Effects/GunFireDay/37mm/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/37mmSlow/GunFire.eff
+@preload 3DO/Effects/GunFireDay/37mmSlow/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/45mm/GunFire.eff
+@preload 3DO/Effects/GunFireDay/45mm/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/75mm/GunFire.eff
+@preload 3DO/Effects/GunFireDay/75mm/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/7mm/GunFlare.eff
+@preload 3DO/Effects/GunFireDay/88mm/CannonTank.eff
+@preload 3DO/Effects/GunFireDay/88mm/CannonTankFire.eff
+
+@preload 3DO/Effects/GunShells/CannonShells.eff
+@preload 3DO/Effects/GunShells/CannonShellsSingle.eff
+@preload 3DO/Effects/GunShells/GunShells.eff
+
+@preload 3DO/Effects/Rocket/firesprite.eff
+@preload 3DO/Effects/Rocket/RocketSmokeWhite.eff
+@preload 3DO/Effects/Rocket/RocketSmokeWhiteStart.eff
+@preload 3DO/Effects/Rocket/RocketSmokeWhiteTile.eff
+
+@preload 3DO/Effects/Tracers/TrailCurved.eff
+@preload 3DO/Effects/Tracers/TrailRicochet.eff
+@preload 3DO/Effects/Tracers/TrailThin.eff
+@preload 3DO/Effects/Tracers/533mmTorpedo/Line.eff
+@preload 3DO/Effects/Tracers/533mmTorpedo/Wave.eff
+@preload 3DO/Effects/Tracers/GuidedRocket/Black.eff
+@preload 3DO/Effects/Tracers/GuidedRocket/White.eff
+@preload 3DO/Effects/Tracers/GunpowderRocket/rocket.eff
+@preload 3DO/Effects/Tracers/ImpulseRocket/rocket.eff
+@preload 3DO/Effects/Tracers/ShipTrail/FrontPuff.eff
+@preload 3DO/Effects/Tracers/ShipTrail/FrontPuffBoat.eff
+@preload 3DO/Effects/Tracers/ShipTrail/PropWake.eff
+@preload 3DO/Effects/Tracers/ShipTrail/SideWave.eff
+@preload 3DO/Effects/Tracers/ShipTrail/Wake.eff
+@preload 3DO/Effects/Tracers/ShipTrail/WakeBoat.eff
+@preload 3DO/Effects/Tracers/ShipTrail/WakeBoatS.eff
+@preload 3DO/Effects/Tracers/ShipTrail/WakeS.eff
+@preload 3DO/Effects/Tracers/20mmBlue/mono.sim
+@preload 3DO/Effects/Tracers/20mmCyan/mono.sim
+@preload 3DO/Effects/Tracers/20mmGreen/mono.sim
+@preload 3DO/Effects/Tracers/20mmGreenBlue/mono.sim
+@preload 3DO/Effects/Tracers/20mmMagenta/mono.sim
+@preload 3DO/Effects/Tracers/20mmOrange/mono.sim
+@preload 3DO/Effects/Tracers/20mmPink/mono.sim
+@preload 3DO/Effects/Tracers/20mmRed/mono.sim
+@preload 3DO/Effects/Tracers/20mmWhite/mono.sim
+@preload 3DO/Effects/Tracers/20mmYellow/mono.sim
+@preload 3DO/Effects/Tracers/7mmGreen/mono.sim
+@preload 3DO/Effects/Tracers/7mmYellow/mono.sim
+@preload 3DO/Effects/Tracers/HydrogenRocket/rocket.eff
+@preload 3DO/Effects/Tracers/ShipTrail/WakeSmaller.eff
+@preload 3DO/Effects/Tracers/ShipTrail/WaveSmaller.eff
+
+## Sim
+
+@preload 3DO/Arms/MatrixXX/mono.sim
+@preload 3DO/Arms/TowString/mono.sim
+@preload 3DO/Arms/TowCable/mono.sim
+@preload 3DO/Arms/ArrestorCable/mono.sim
+@preload 3DO/Arms/1000LbsBomb/mono.sim
+@preload 3DO/Arms/Bomb1000lbsGPE/mono.sim
+@preload 3DO/Arms/bomb-100kg-it/mono.sim
+@preload 3DO/Arms/S328bomb-100kgCZ/mono.sim
+@preload 3DO/Arms/100kgBombJ/mono.sim
+@preload 3DO/Arms/100LbsBomb/mono.sim
+@preload 3DO/Arms/S328bomb-10kg/mono.sim
+@preload 3DO/Arms/12kgBombFi/mono.sim
+@preload 3DO/Arms/Tank154gal/mono.sim
+@preload 3DO/Arms/15kgFragJ/mono.sim
+@preload 3DO/Arms/1600LbsBomb/mono.sim
+@preload 3DO/Arms/F4U_Napalm/mono.sim
+@preload 3DO/Arms/2000LbsBomb/mono.sim
+@preload 3DO/Arms/S328bomb-20kg/mono.sim
+@preload 3DO/Arms/250kgBomb/mono.sim
+@preload 3DO/Arms/250kgBombJ/mono.sim
+@preload 3DO/Arms/250LbsBomb/mono.sim
+@preload 3DO/Arms/250LbsBombE/mono.sim
+@preload 3DO/Arms/25kgBombFi/mono.sim
+@preload 3DO/Arms/30kgBombJ/mono.sim
+@preload 3DO/Arms/Bomb4000HCmkI/mono.sim
+@preload 3DO/Arms/Bomb40lbsGP/mono.sim
+@preload 3DO/Arms/45-12/mono.sim
+@preload 3DO/Arms/53-38/mono.sim								# Add in 4.13.1
+@preload 3DO/Arms/500kgBombJ/mono.sim
+@preload 3DO/Arms/500LbsBomb/mono.sim
+@preload 3DO/Arms/500LbsBombE/mono.sim
+@preload 3DO/Arms/bomb-50kg-it/mono.sim
+@preload 3DO/Arms/S328bomb-50kg/mono.sim
+@preload 3DO/Arms/50kgIncJ/mono.sim
+@preload 3DO/Arms/50kgBombJ/mono.sim
+@preload 3DO/Arms/600kgBombJ/mono.sim
+@preload 3DO/Arms/60kgBombJ/mono.sim
+@preload 3DO/Arms/800kgBombJ/mono.sim
+@preload 3DO/Arms/AB-1000/mono.sim
+@preload 3DO/Arms/AB-23/mono.sim
+@preload 3DO/Arms/AB-250/mono.sim
+@preload 3DO/Arms/AB-500/mono.sim
+@preload 3DO/Arms/Ampoule/mono.sim
+@preload 3DO/Arms/AO-8M3/mono.sim								# Add in 4.13.1
+@preload 3DO/Arms/AO-10/mono.sim
+@preload 3DO/Arms/B22EZ/mono.sim
+@preload 3DO/Arms/Cargo-TypeA/mono.sim
+@preload 3DO/Arms/FAB-100/mono.sim
+@preload 3DO/Arms/FAB-1000/mono.sim
+@preload 3DO/Arms/FAB-2000/mono.sim
+@preload 3DO/Arms/FAB-250/mono.sim
+@preload 3DO/Arms/FAB-50/mono.sim
+@preload 3DO/Arms/FAB-500/mono.sim
+@preload 3DO/Arms/FAB-5000/mono.sim
+@preload 3DO/Arms/100kgBombM/mono.sim
+@preload 3DO/Arms/BombIT100kg/mono.sim
+@preload 3DO/Arms/250kgBombT/mono.sim
+@preload 3DO/Arms/BombIT250Kg/mono.sim
+@preload 3DO/Arms/50kgBombM/mono.sim
+@preload 3DO/Arms/500kgBombT/mono.sim
+@preload 3DO/Arms/BombIT500Kg/mono.sim
+@preload 3DO/Arms/BombIT50Kg/mono.sim
+@preload 3DO/Arms/Bomb630Kg/mono.sim
+@preload 3DO/Arms/2KgBomblet/mono.sim
+@preload 3DO/Arms/M26A2_20/mono.sim
+@preload 3DO/Arms/M41A1Frag/mono.sim
+@preload 3DO/Arms/Null/mono.sim
+@preload 3DO/Arms/par_Flare/mono.sim
+@preload 3DO/Arms/paraFlareUK/mono.sim
+@preload 3DO/Arms/Parafrag/mono.sim
+@preload 3DO/Arms/PC-1600/mono.sim
+@preload 3DO/Arms/PTAB-25/mono.sim
+@preload 3DO/Arms/PuW-12_5/mono.sim
+@preload 3DO/Arms/SC-1000/mono.sim
+@preload 3DO/Arms/SC-1800/mono.sim
+@preload 3DO/Arms/SC-2000/mono.sim
+@preload 3DO/Arms/SC-250/mono.sim
+@preload 3DO/Arms/SC-2500/mono.sim
+@preload 3DO/Arms/sc-50/mono.sim
+@preload 3DO/Arms/SC-500/mono.sim
+@preload 3DO/Arms/sc-70/mono.sim
+@preload 3DO/Arms/SD-1000/mono.sim
+@preload 3DO/Arms/SD-2A/mono.sim
+@preload 3DO/Arms/SD-4HL/mono.sim
+@preload 3DO/Arms/SD-500/mono.sim
+@preload 3DO/Arms/Starthilfe109-500Chuted/mono.sim
+@preload 3DO/Arms/Torpedo650Kg/mono.sim
+@preload 3DO/Arms/LTF5B/mono.sim
+@preload 3DO/Arms/MotobombaFFF/mono.sim
+@preload 3DO/Arms/fiume/mono.sim
+@preload 3DO/Arms/Practice/mono.sim
+@preload 3DO/Arms/Mk12_Torpedo/mono.sim
+@preload 3DO/Arms/Mk13_new/mono.sim
+@preload 3DO/Arms/Mk13_new/mono_a.sim
+@preload 3DO/Arms/Mk13_LATE_new/mono_a.sim
+@preload 3DO/Arms/Mk13_LATE_new/mono.sim
+@preload 3DO/Arms/Type91_new/mono.sim
+@preload 3DO/Arms/Type_91_Late_new/mono.sim
+@preload 3DO/Arms/Type_91_Late2_new/mono.sim
+@preload 3DO/Arms/Walter-StarthilferaketeChuted/mono.sim
+@preload 3DO/Arms/600mmShell/mono.sim
+@preload 3DO/Arms/Tank0/mono.sim
+@preload 3DO/Arms/A6M5_300LDroptank/mono.sim
+@preload 3DO/Arms/A6M5_150LUnderwingTank/mono.sim
+@preload 3DO/Arms/A6M_300LWoodenTank/mono.sim
+@preload 3DO/Arms/Tank100gal/mono.sim
+@preload 3DO/Arms/I-16-Tank100/mono.sim
+@preload 3DO/Arms/Tank120/mono.sim
+@preload 3DO/Arms/F4U_Droptank/mono.sim
+@preload 3DO/Arms/Tank240/mono.sim
+@preload 3DO/Arms/Tank60gal/mono.sim
+@preload 3DO/Arms/Tank75gal/mono.sim
+@preload 3DO/Arms/Tank75gal2/mono.sim
+@preload 3DO/Arms/Tank80/mono.sim
+@preload 3DO/Arms/FuelTank-900/mono.sim
+@preload 3DO/Arms/A5M_Droptank/mono.sim
+@preload 3DO/Arms/F4F_Droptank/mono.sim
+@preload 3DO/Arms/Hs123Tank/mono.sim
+@preload 3DO/Arms/Ki-43_UnderwingTank/mono.sim
+@preload 3DO/Arms/Ki-61_UnderwingTank/mono.sim
+@preload 3DO/Arms/TankKi84/mono.sim
+@preload 3DO/Arms/N1K1_Droptank/mono.sim
+@preload 3DO/Arms/P-38_tank/mono.sim
+@preload 3DO/Arms/Spit_DropTank_30gal/mono.sim
+@preload 3DO/Arms/Spit_DropTank_45gal/mono.sim
+@preload 3DO/Arms/Spit_DropTank_90gal/mono.sim
+@preload 3DO/Arms/Tempest_Droptank/mono.sim
+@preload 3DO/Arms/ETC-900TypeD/mono.sim
+@preload 3DO/Arms/A5M_Bombrack/mono.sim
+@preload 3DO/Arms/A6MPLN1/mono.sim
+@preload 3DO/Arms/A6MPLN2/mono.sim
+@preload 3DO/Arms/B-25PLN/mono.sim
+@preload 3DO/Arms/B-25_launcher/mono.sim
+@preload 3DO/Arms/Kate_TorpRack/mono.sim
+@preload 3DO/Arms/Kate_BombRack01/mono.sim
+@preload 3DO/Arms/Kate_BombRack02/mono.sim
+@preload 3DO/Arms/Kate_BombRack03/mono.sim
+@preload 3DO/Arms/Kate_BombRack04/mono.sim
+@preload 3DO/Arms/Beau_bomb_rack/mono.sim
+@preload 3DO/Arms/Beau_rocket_rail_L/mono.sim
+@preload 3DO/Arms/Beau_rocket_rail_R/mono.sim
+@preload 3DO/Arms/Beau_torpedo_rack/mono.sim
+@preload 3DO/Arms/Bf-110G2-R3/mono.sim
+@preload 3DO/Arms/Bf-110G2-R4/mono.sim
+@preload 3DO/Arms/Der-16-Fake/mono.sim
+@preload 3DO/Arms/ETC-250/mono.sim
+@preload 3DO/Arms/ETC-50/mono.sim
+@preload 3DO/Arms/ETC-501/mono.sim
+@preload 3DO/Arms/ETC50/mono.sim
+@preload 3DO/Arms/ETC-71/mono.sim
+@preload 3DO/Arms/ETC-900/mono.sim
+@preload 3DO/Arms/F4F_Droptank_Pylon/mono.sim
+@preload 3DO/Arms/F4F_BombRack/mono.sim
+@preload 3DO/Arms/F4U_Center_Pylon/mono.sim
+@preload 3DO/Arms/F4U_WingPilon/mono.sim
+@preload 3DO/Arms/F6F_Centerline/mono.sim
+@preload 3DO/Arms/F6F_Rail/mono.sim
+@preload 3DO/Arms/Hs123Rack/mono.sim
+@preload 3DO/Arms/Hs-129-BK37/mono.sim
+@preload 3DO/Arms/Hs-129-MK101/mono.sim
+@preload 3DO/Arms/Hs-129-BombRacks/BombRackCenter250.sim
+@preload 3DO/Arms/Hs-129-BombRacks/BombRackCenter50.sim
+@preload 3DO/Arms/Hs-129-BombRacks/BombRackLeft.sim
+@preload 3DO/Arms/Hs-129-BombRacks/BombRackRight.sim
+@preload 3DO/Arms/Hs-129-MG17s/mono.sim
+@preload 3DO/Arms/HurriDummy/mono.sim
+@preload 3DO/Arms/Ki-45_Rack/mono.sim
+@preload 3DO/Arms/Ki-43_BombPylon/mono.sim
+@preload 3DO/Arms/Ki-84PLN2/mono.sim
+@preload 3DO/Arms/KMB/mono.sim
+@preload 3DO/Arms/R4M-RAK_L/mono.sim
+@preload 3DO/Arms/R4M-RAK_R/mono.sim
+@preload 3DO/Arms/MG-151-20/mono.sim
+@preload 3DO/Arms/MG-151-20(internal)/mono.sim
+@preload 3DO/Arms/MG-151-20x2/mono.sim
+@preload 3DO/Arms/MiG-3-BK/mono.sim
+@preload 3DO/Arms/Mk-103/mono.sim
+@preload 3DO/Arms/Mk-108/mono.sim
+@preload 3DO/Arms/N1K1_Rack/mono.sim
+@preload 3DO/Arms/P-38_gunpod/mono.sim
+@preload 3DO/Arms/RO-3-P-38_fuz_L/mono.sim
+@preload 3DO/Arms/RO-3-P-38_fuz_R/mono.sim
+@preload 3DO/Arms/RO-3-P-38_wing_L/mono.sim
+@preload 3DO/Arms/RO-3-P-38_wing_R/mono.sim
+@preload 3DO/Arms/P-38_tree_launcher/mono.sim
+@preload 3DO/Arms/P-38_launcher/mono.sim
+@preload 3DO/Arms/P-39_CenterRack/mono.sim
+@preload 3DO/Arms/P-51PLN2/mono.sim
+@preload 3DO/Arms/P-63C_gunpod/mono.sim
+@preload 3DO/Arms/P-63CPLN2/mono.sim
+@preload 3DO/Arms/PE-KB-FAB-100/mono.sim
+@preload 3DO/Arms/PE-KB-FAB-250/mono.sim
+@preload 3DO/Arms/R-5_CRack/mono.sim
+@preload 3DO/Arms/R-5_LRack/mono.sim
+@preload 3DO/Arms/R-5_RRack/mono.sim
+@preload 3DO/Arms/R-5_GPodL/mono.sim
+@preload 3DO/Arms/R-5_GPodR/mono.sim
+@preload 3DO/Arms/RO-3-4andHalf-inch/mono.sim
+@preload 3DO/Arms/RO-82-1/mono.sim
+@preload 3DO/Arms/RO-82-3/mono.sim
+@preload 3DO/Arms/WfrGr21/mono.sim
+@preload 3DO/Arms/WfrGr21/dual.sim
+@preload 3DO/Arms/S328BombRack/mono.sim
+@preload 3DO/Arms/Spit_BombRack_C/mono.sim
+@preload 3DO/Arms/Spit_BombRack_L/mono.sim
+@preload 3DO/Arms/Spit_BombRack_R/mono.sim
+@preload 3DO/Arms/Spit_RocketRack/mono.sim
+@preload 3DO/Arms/TBD_CRack/mono.sim
+@preload 3DO/Arms/TBD_FRack/mono.sim
+@preload 3DO/Arms/TBD_LRack/mono.sim
+@preload 3DO/Arms/TBD_RRack/mono.sim
+@preload 3DO/Arms/TBD_TRack/mono.sim
+@preload 3DO/Arms/Tempest_BombRack_L/mono.sim
+@preload 3DO/Arms/Tempest_BombRack_R/mono.sim
+@preload 3DO/Arms/Tempest_RocketRack_L/mono.sim
+@preload 3DO/Arms/Tempest_RocketRack_R/mono.sim
+@preload 3DO/Arms/VAP-250/mono.sim
+@preload 3DO/Arms/VAP-500/mono.sim
+@preload 3DO/Arms/4andHalf-inchRocket/mono.sim
+@preload 3DO/Arms/Bat/mono.sim
+@preload 3DO/Arms/BRS-132-41/mono.sim
+@preload 3DO/Arms/BRS-82/mono.sim
+@preload 3DO/Arms/FritZ-X/mono.sim
+@preload 3DO/Arms/HS-293/mono.sim
+@preload 3DO/Arms/HVAR-2inch/mono.sim
+@preload 3DO/Arms/HVAR-5inch/mono.sim
+@preload 3DO/Arms/HVAR-5inch-AP/mono.sim
+@preload 3DO/Arms/Beau_rocket/mono.sim
+@preload 3DO/Arms/M-13/mono.sim
+@preload 3DO/Arms/R4M-OPEN/mono.sim
+@preload 3DO/Arms/R4M-CLOSED/mono.sim
+@preload 3DO/Arms/Razon/mono.sim
+@preload 3DO/Arms/RS-132-41/mono.sim
+@preload 3DO/Arms/RS-132-45/mono.sim
+@preload 3DO/Arms/RS-82/mono.sim
+@preload 3DO/Arms/TinyTim/mono.sim
+@preload 3DO/Arms/Type3No6Mk27B(R)Model1/mono.sim
+@preload 3DO/Arms/WfrGr21Rocket/mono.sim
+@preload 3DO/Arms/X-4/mono.sim
+
+@preload 3DO/Arms/ABKP/mono.sim
+@preload 3DO/Arms/ABKP/mono1.sim
+@preload 3DO/Arms/ABKP/mono2.sim
+@preload 3DO/Arms/ABKP/mono3.sim
+@preload 3DO/Arms/ABKP/mono4.sim
+@preload 3DO/Arms/Bacshaew/mono.sim
+@preload 3DO/Arms/Bf-110D1-R1/mono.sim
+@preload 3DO/Arms/Bf-110D1-R1/mono2.sim
+@preload 3DO/Arms/Bf-110E2-R4ETC50/mono.sim
+@preload 3DO/Arms/Bf-110-ETC-Rack/mono.sim
+@preload 3DO/Arms/Cargo-TypeB/mono.sim
+@preload 3DO/Arms/Cargo-TypeC/mono.sim
+@preload 3DO/Arms/Germany_75L/mono.sim
+@preload 3DO/Arms/Germany_300L/mono.sim
+@preload 3DO/Arms/Germany_900L/mono.sim
+@preload 3DO/Arms/WB81A/mono.sim
+@preload 3DO/Arms/WB81B/mono.sim
+
+@preload 3DO/Arms/Cargo-TypeD/mono.sim								# Add in 4.15
+@preload 3DO/Arms/Cargo-TypeE/mono.sim								# Add in 4.15
+@preload 3DO/Arms/Cargo-TypeF/mono.sim								# Add in 4.15
+@preload 3DO/Arms/Cargo-TypeD2/mono.sim								# Add in 4.15
+@preload 3DO/Arms/Cargo-TypeE2/mono.sim								# Add in 4.15
+@preload 3DO/Arms/Cargo-TypeF2/mono.sim								# Add in 4.15
+@preload 3DO/Arms/B1E/mono.sim										# Add in 4.15
+@preload 3DO/Arms/B1E/mono144.sim									# Add in 4.15
+@preload 3DO/Arms/SD10A/mono.sim									# Add in 4.15
+@preload 3DO/Arms/SD10A/mono16.sim									# Add in 4.15
+
+@preload 3DO/Effects/GunFireDay/12mm/mono.sim
+@preload 3DO/Effects/GunFireDay/20mm/mono.sim
+@preload 3DO/Effects/GunFireDay/7mm/mono.sim
+@preload 3DO/Effects/TaxingHelper/mono.sim
+@preload 3DO/Effects/Explosion/AircraftCrater.sim
+@preload 3DO/Effects/Explosion/WaterRingCannon.sim
+@preload 3DO/Effects/Explosion/Crater.sim
+@preload 3DO/Effects/Explosion/DustRing.sim
+@preload 3DO/Effects/Explosion/LandLight.sim
+@preload 3DO/Effects/Explosion/WaterRing.sim
+@preload 3DO/Effects/Fireworks/HammerOfThor/mono.sim
+@preload 3DO/Effects/Rocket/mono.sim
+@preload 3DO/Effects/Aircraft/BellyLanding/dirt/ditch.sim
+@preload 3DO/Effects/Aircraft/BellyLanding/sand/ditch.sim
+@preload 3DO/Effects/Aircraft/BellyLanding/snow/ditch.sim
+@preload 3DO/Effects/Aircraft/GearsSnow/track.sim
+
+## Sounds presets
+
+@preload aircraft.door
+@preload aircraft.morse.prs
+@preload aircraft.morse.extra.prs
+@preload aircraft.tow
+@preload aircraft.wheels
+@preload crash.air.prs
+@preload crash.cutoff.prs
+@preload crash.drop.air.prs
+@preload crash.tank.prs
+@preload explode.big.prs
+@preload explode.bullet.prs
+@preload explode.middle.prs
+@preload explode.shell.prs
+@preload explode.zenitka.prs
+@preload hit.air.prs
+@preload interface.prs
+@preload models.structuralFX.prs
+@preload objects.bullet.prs
+@preload objects.flame.prs
+@preload objects.rain.prs
+@preload objects.ship_signal.prs
+@preload objects.siren.prs
+@preload objects.train_signal.prs
+@preload objects.zip.prs
+@preload propeller.middle.prs
+@preload weapon.air_cannon_37.prs
+@preload weapon.air_cannon_45.prs
+@preload weapon.air_cannon_75.prs
+@preload weapon.bombgun.prs
+@preload weapon.bombgun_AO10.prs
+@preload weapon.bombgun_fueltank.prs
+@preload weapon.bombgun_phball.prs
+@preload weapon.bombgun_torpedo.prs
+@preload weapon.bomb_cassette.prs
+@preload weapon.bomb_big.prs
+@preload weapon.bomb_mid.prs
+@preload weapon.bomb_phball.prs
+@preload weapon.bomb_small.prs
+@preload weapon.bomb_std.prs
+@preload weapon.cannon100.prs
+@preload weapon.cannon100t.prs
+@preload weapon.cannon37.prs
+@preload weapon.cannon37t.prs
+@preload weapon.cannon45.prs
+@preload weapon.cannon45t.prs
+@preload weapon.cannon75.prs
+@preload weapon.cannon75t.prs
+@preload weapon.cannon85.prs
+@preload weapon.cannon85t.prs
+@preload weapon.fau_2.prs
+@preload weapon.mgun_07_1500.prs
+@preload weapon.mgun_07_900.prs
+@preload weapon.mgun_13_800.prs
+@preload weapon.mgun_15_700.prs
+@preload weapon.mgun_15_dual.prs
+@preload weapon.mgun_20_500.prs
+@preload weapon.mgun_20_700.prs
+@preload weapon.mgun_30_500.prs
+@preload weapon.mgun_tank_13.prs
+@preload weapon.mgun_tank_20.prs
+@preload weapon.mgun_tank_20x2.prs
+@preload weapon.rocketgun_132.prs
+@preload weapon.rocketgun_82.prs
+@preload weapon.rocket_132.prs
+@preload weapon.rocket_82.prs
+@preload weapon.torpedo.prs
+@preload weapon.zenitka_20.prs
+@preload weapon.zenitka_37.prs
+@preload weapon.zenitka_37c.prs
+@preload weapon.zenitka_85.prs
+
